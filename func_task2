@@ -1,0 +1,6 @@
+#### almost_there: на входе число n, вернуть True если n находится не далее чем на 10 от чисел 100 или 200.
+
+def almost_there(n):
+    return n-100>=10 or 100-n>=10 or 200-n>=10 or n-200>=10
+
+print(almost_there(104))
